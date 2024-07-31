@@ -1,5 +1,3 @@
-import { protocol } from 'socket.io-client';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -9,12 +7,6 @@ const nextConfig = {
               hostname: 'raw.githubusercontent.com',
               port: '',
               pathname: '/LeonardSSH/**',
-            },
-            {
-                protocol: 'https',
-                hostname: 'https://skillicons.dev/',
-                port: '',
-                pathname: '/**',
             }
         ],
     }
