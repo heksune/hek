@@ -26,7 +26,7 @@ export const socials = [
     },
     { 
         id: 4,
-        name: "Twitter",
+        name: "X",
         description: "heksune",
         url: "https://twitter.com/heksune",
         icon: <BsTwitterX className="w-7 h-7 text-white/50" />,
