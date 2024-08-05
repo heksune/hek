@@ -27,7 +27,7 @@ export default function Technologies() {
         {tabs
           .filter((tab) => tab.name === activeTab)
           .map((tab) => (
-            <div className="grid grid-cols-3 md:grid-cols-5 gap-3">
+            <div key={tab.id} className="grid grid-cols-3 md:grid-cols-5 gap-3">
               {tab.items.map((item, index) => (
                 <div key={index} className="rounded-lg p-2.5 cursor-pointer border-neutral-800 border-[1px] bg-neutral-850 flex items-center space-x-1.5">
                   <div className="w-5 h-5 text-white/60">{item.icon}</div>
