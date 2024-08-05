@@ -6,7 +6,7 @@ export default function Header() {
             <div className="max-w-3xl">
                 <div>
                     <h className="text-black/70 dark:text-white/50 text-lg font-medium uppercase">Hello, Wecome To hek universe.</h>
-                    <p className="mt-4 text-white/70 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis dignissimos quod odio corrupti autem illo. Minus, iusto explicabo. Eligendi, rem esse tempora ea nulla obcaecati officia blanditiis provident hic quas ipsa, vitae voluptate atque.</p>
+                    <p className="mt-4 text-white/70 text-sm">Let me introduce myself, my name is Emre and I am 17 years old. I am a self-taught web developer. I have been interested in software for about 4 years. I love improving myself day by day and seeing this change in myself.</p>
                 </div>
                 <Discord />
             </div>

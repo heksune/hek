@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { FaBookBookmark } from "react-icons/fa6";
-import { MdElectricalServices } from "react-icons/md";
+import { FaBookBookmark, FaCodeFork } from "react-icons/fa6";
+import { FaRegStar } from "react-icons/fa6";
 
 export default function Repos() {
   const [repos, setRepos] = useState([]);
@@ -46,9 +46,15 @@ export default function Repos() {
               </p>
               <div className="flex items-center justify-between mt-4 text-white/30 font-medium">
                 <p>{repo.language}</p>
-                <div className="flex space-x-2">
-                  <p>{repo.stargazers_count}</p>
-                  <p>{repo.forks_count}</p>
+                <div className="flex space-x-3">
+                  <div className="flex items-center space-x-1">
+                    <FaRegStar className="w-3 h-3" />
+                    <p>{repo.stargazers_count}</p>
+                  </div>
+                  <div className="flex items-center space-x-1">
+                    <FaCodeFork className="w-3 h-3" />
+                    <p>{repo.forks_count}</p>
+                  </div>
                 </div>
               </div>
             </div>
