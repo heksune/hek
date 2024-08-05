@@ -1,5 +1,3 @@
-import Discord from "./discord";
-
 export default function Header() {
     return (
         <div className="mt-20">
