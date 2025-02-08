@@ -1,6 +1,6 @@
 export default function Background() {
   return (
-    <div className="relative flex w-full h-full flex-col">
+    <div className="relative flex w-full h-full flex-col bg-[#09090B]">
       <div className="fixed inset-0 mx-0 max-w-none overflow-hidden">
         <div className="absolute left-1/2 top-[-14.5px] ml-[-41.5rem] h-[30rem] w-[80rem] [mask-image:linear-gradient(#09090B,transparent)]">
           <div className="absolute inset-0 bg-gradient-to-r from-zinc-400/40 to-zinc-400 opacity-40 [mask-image:radial-gradient(farthest-side_at_top,black,transparent)]"><svg aria-hidden="true" className="absolute -inset-y-1/2 inset-x-0 h-[200%] w-full skew-x-[18deg] stroke-transparent mix-blend-overlay fill-[#09090B]"><defs><pattern id=":S2:" width="72" height="56" patternUnits="userSpaceOnUse" x="-12" y="4"><path d="M.5 56V.5H72" fill="none"></path></pattern></defs><rect width="100%" height="100%" strokeWidth="0" fill="url(#:S2:)"></rect></svg></div>
