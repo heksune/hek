@@ -27,7 +27,7 @@ body {
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background: #aaaaaa;
   /* Kaydırma çubuğunun rengi */
   border-radius: 10px;
 }
