@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #09090B;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Scrollbar (WebKit) */
+.scrollbar-custom::-webkit-scrollbar {
+  height: 5px;
+  /* Yatay kaydırma çubuğu kalınlığı */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  /* Arka plan rengi */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  /* Kaydırma çubuğunun rengi */
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+  /* Hover olduğunda rengi */
+}
